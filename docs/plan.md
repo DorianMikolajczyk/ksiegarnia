@@ -8,7 +8,7 @@ To do, every week sync:
 
 Data   |  ETA                 | Notatka            |
 -------|----------------------|--------------------|
-tydz 1 | march v1<br/>June v2 |  Zrobilismy X      |
+tydz 1 | march v1<br/>June v2 |  README + opis projektu      |
 tydz 2 | march v1             |  Review design doc z klientem |
 tydz 3 | march v1             |                    |
 tydz 4 | march v1             |                    |
