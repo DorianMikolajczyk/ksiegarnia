@@ -1,0 +1,138 @@
+body{
+    font-family: Trebuchet MS;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #3d7041;
+    width: 100%;
+}
+header img {
+    margin: 1%;
+    width: 170px;
+    height: 90px;
+    object-fit: contain;
+}
+header .hf{
+    float: right;
+    margin: 1.5%;
+}
+header .hi{
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0.5s;
+    padding: 8px 30px;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+    margin-top: 15%;
+}
+header .hi:hover{
+    background-color: #826552;
+    color: white;
+}
+
+
+table {
+    padding-left: 25px;
+ 
+}
+tr{background-color: #fff;
+   
+}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3d7041;
+    color: black;
+}
+table .btn{
+   
+    border: none;
+    text-align: center;
+    transition-duration: 0.5s;
+    padding: 8px 30px;
+    cursor: pointer;
+    background-color: #826552;
+    color: white;
+    margin-top: 5%;
+}
+table .btn:hover{
+    background-color: #826552;
+    color: white;
+}
+
+.button{
+    background-color: rgb(163, 219, 178);
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0.5s;
+    padding: 8px 30px;
+    cursor: pointer;
+    color: black;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.button:hover {
+    background-color: #826552;
+    color: white;
+}
+.cbtn{
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0.5s;
+    padding: 8px 30px;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+}
+.cbtn:hover{
+    background-color: #826552;
+    color: white;
+}
+
+form{
+    margin-top: 2%;
+}
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border: 2px solid rgb(163, 219, 178);
+}
+textarea {
+    outline: none;
+    border: 2px solid #ccc;
+}
+textarea:focus {
+    border: 2px solid rgb(163, 219, 178);
+}
+
+.container {
+    width: 55%;
+    border-radius: 5px;
+    background-color: #fdf7f0;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.container2 {
+    width: 55%;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    padding: 20px;
+    margin: 0 auto;
+}
