@@ -14,9 +14,13 @@ Ta strona internetowa działa na bazie aplikacji webowej napisanej w języku php
 
 ## Wymagania
 -PHP
+
 -HTML5
+
 -JavaScript
+
 -CSS
+
 -SQL (np. MySQL, PostgreSQL)
 
 ## Funkcjonalności
