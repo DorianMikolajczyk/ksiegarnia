@@ -27,11 +27,17 @@ Koszyk zakupowy oraz proces składania zamówienia.
 
 # Instalacja i konfiguracja
 -Sklonuj repozytorium na swój lokalny komputer:
+
 -git clone https://github.com/DorianMikolajczyk/ksiegarnia.git
+
 -Przejdź do folderu z projektem:
+
 -cd ksiegarnia
+
 -Utwórz bazę danych SQL (np. MySQL, PostgreSQL) dla aplikacji.
+
 -Otwórz plik konfiguracyjny bazy danych (config/db.php) i wprowadź odpowiednie dane dotyczące bazy danych (nazwa, host, użytkownik, hasło).
+
 -Uruchom lokalny serwer, aby przetestować aplikację.
 
 # Użytkowanie
