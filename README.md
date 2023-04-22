@@ -1,4 +1,42 @@
-Księgarnia internetowa
+##Księgarnia to prosta aplikacja webowa stworzona w celu zarządzania księgarnią internetową. 
+#Aplikacja pozwala na dodawanie, edycję i usuwanie książek, a także zarządzanie zamówieniami klientów. Projekt został stworzony przez Dorian Mikołajczyk i znajduje się pod adresem: https://github.com/DorianMikolajczyk/ksiegarnia
+
+Wymagania
+PHP 7.4+
+HTML5
+JavaScript
+CSS3
+SQL (np. MySQL, PostgreSQL)
+Funkcjonalności
+Zarządzanie książkami: dodawanie, edycja, usuwanie oraz przeglądanie książek.
+Zarządzanie zamówieniami: przeglądanie, akceptacja, odrzucanie i realizacja zamówień.
+Autentykacja i autoryzacja użytkowników.
+Wyszukiwanie książek na podstawie kategorii, tytułu, autora lub słów kluczowych.
+Koszyk zakupowy oraz proces składania zamówienia.
+Instalacja i konfiguracja
+Sklonuj repozytorium na swój lokalny komputer:
+bash
+Copy code
+git clone https://github.com/DorianMikolajczyk/ksiegarnia.git
+Przejdź do folderu z projektem:
+bash
+Copy code
+cd ksiegarnia
+Utwórz bazę danych SQL (np. MySQL, PostgreSQL) dla aplikacji.
+
+Otwórz plik konfiguracyjny bazy danych (config/db.php) i wprowadź odpowiednie dane dotyczące bazy danych (nazwa, host, użytkownik, hasło).
+
+Uruchom migracje, aby utworzyć strukturę bazy danych:
+
+Copy code
+php migration.php
+Zainstaluj zależności dla frontendu (np. Bootstrap, jQuery) za pomocą narzędzia do zarządzania pakietami, takiego jak npm lub yarn.
+
+Uruchom lokalny serwer, aby przetestować aplikację:
+
+Copy code
+php -S localhost:8000
+Otwórz przeglądarkę internetową i przejdź do adresu http://localhost:8000, aby zobaczyć działającą aplikację.
  
 Co to za strona?
  
