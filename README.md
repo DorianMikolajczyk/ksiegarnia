@@ -1,57 +1,46 @@
-##Księgarnia to prosta aplikacja webowa stworzona w celu zarządzania księgarnią internetową. 
-#Aplikacja pozwala na dodawanie, edycję i usuwanie książek, a także zarządzanie zamówieniami klientów. Projekt został stworzony przez Dorian Mikołajczyk i znajduje się pod adresem: https://github.com/DorianMikolajczyk/ksiegarnia
+## Księgarnia - prosta aplikacja webowa sklepu internetowego
 
-Wymagania
-PHP 7.4+
+# Co to za strona?
+ 
+Jest to strona internetowa księgarni, na której można przeglądać i kupować książki online. Na stronie można znaleźć różne kategorie książek, a także informacje o autorach.
+
+# Dlaczego powstała ta strona?
+ 
+Strona powstała, aby umożliwić klientom łatwe i wygodne zakupy książek online. Dzięki temu klienci mogą przeglądać ofertę księgarni, wybierać interesujące ich pozycje i dokonywać zakupów w dowolnym momencie i miejscu.
+
+# Jak działa ta strona?
+ 
+Ta strona internetowa działa na bazie aplikacji webowej napisanej w języku php + JS. Strona korzysta z bazy danych do przechowywania informacji o książkach, klientach i zamówieniach.
+
+# Wymagania
+PHP
 HTML5
 JavaScript
-CSS3
+CSS
 SQL (np. MySQL, PostgreSQL)
-Funkcjonalności
+
+# Funkcjonalności
 Zarządzanie książkami: dodawanie, edycja, usuwanie oraz przeglądanie książek.
 Zarządzanie zamówieniami: przeglądanie, akceptacja, odrzucanie i realizacja zamówień.
 Autentykacja i autoryzacja użytkowników.
-Wyszukiwanie książek na podstawie kategorii, tytułu, autora lub słów kluczowych.
 Koszyk zakupowy oraz proces składania zamówienia.
-Instalacja i konfiguracja
-Sklonuj repozytorium na swój lokalny komputer:
-bash
-Copy code
-git clone https://github.com/DorianMikolajczyk/ksiegarnia.git
-Przejdź do folderu z projektem:
-bash
-Copy code
-cd ksiegarnia
-Utwórz bazę danych SQL (np. MySQL, PostgreSQL) dla aplikacji.
 
-Otwórz plik konfiguracyjny bazy danych (config/db.php) i wprowadź odpowiednie dane dotyczące bazy danych (nazwa, host, użytkownik, hasło).
+# Instalacja i konfiguracja
+-Sklonuj repozytorium na swój lokalny komputer:
+-git clone https://github.com/DorianMikolajczyk/ksiegarnia.git
+-Przejdź do folderu z projektem:
+-cd ksiegarnia
+-Utwórz bazę danych SQL (np. MySQL, PostgreSQL) dla aplikacji.
+-Otwórz plik konfiguracyjny bazy danych (config/db.php) i wprowadź odpowiednie dane dotyczące bazy danych (nazwa, host, użytkownik, hasło).
+-Uruchom lokalny serwer, aby przetestować aplikację.
 
-Uruchom migracje, aby utworzyć strukturę bazy danych:
+# Użytkowanie
+Aplikacja pozwala na zarządzanie danymi za pomocą phpMyAdmin - narzędzia do zarządzania bazą danych MySQL przez interfejs WWW. Dzięki phpMyAdmin możemy przeglądać, modyfikować, dodawać i usuwać tabele oraz rekordy w bazie danych, zarządzać użytkownikami bazy danych oraz ich uprawnieniami.
 
-Copy code
-php migration.php
-Zainstaluj zależności dla frontendu (np. Bootstrap, jQuery) za pomocą narzędzia do zarządzania pakietami, takiego jak npm lub yarn.
+-Aby korzystać z phpMyAdmin, upewnij się, że masz zainstalowane oprogramowanie na swoim serwerze i skonfigurowane zgodnie z dokumentacją: https://www.phpmyadmin.net/docs/
 
-Uruchom lokalny serwer, aby przetestować aplikację:
+-Po zainstalowaniu i skonfigurowaniu phpMyAdmin, otwórz przeglądarkę internetową i przejdź do adresu URL phpMyAdmin (zwykle http://localhost/phpmyadmin lub http://adres_serwera/phpmyadmin). Zaloguj się, korzystając z danych dostępowych do bazy danych, które wprowadziłeś wcześniej do pliku konfiguracyjnego (config/db.php).
 
-Copy code
-php -S localhost:8000
-Otwórz przeglądarkę internetową i przejdź do adresu http://localhost:8000, aby zobaczyć działającą aplikację.
- 
-Co to za strona?
- 
-To jest strona internetowa księgarni, na której można przeglądać i kupować książki online. Na stronie można znaleźć różne kategorie książek, opisy i recenzje, a także informacje o autorach.
- 
-Dlaczego powstała ta strona?
- 
-Strona powstała, aby umożliwić klientom łatwe i wygodne zakupy książek online. Dzięki temu klienci mogą przeglądać ofertę księgarni, wybierać interesujące ich pozycje i dokonywać zakupów w dowolnym momencie i miejscu.
- 
-Jak korzystać z tej strony?
- 
-Aby korzystać z tej strony, wystarczy wejść na stronę internetową i przeglądać dostępne kategorie książek. Można także wyszukiwać konkretne tytuły lub autorów. Po wybraniu interesującej książki można dodać ją do koszyka i przejść do kasy, gdzie należy podać swoje dane i dokonać płatności.
- 
-Jak działa ta strona?
- 
-Ta strona internetowa działa na bazie aplikacji webowej napisanej w języku php + JS. Strona korzysta z bazy danych do przechowywania informacji o książkach, klientach i zamówieniach. Strona jest hostowana na serwerze ubuntu.
+W phpMyAdmin możesz przeglądać strukturę bazy danych, zarządzać tabelami, wprowadzać zmiany w rekordach, a także tworzyć kopie zapasowe bazy danych i importować dane z plików SQL.
 
 https://user-images.githubusercontent.com/91832822/233770222-54d83fa5-8a92-4e5f-9689-0c81def28bb2.mp4
