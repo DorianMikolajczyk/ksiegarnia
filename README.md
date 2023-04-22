@@ -13,13 +13,6 @@ Strona powstała, aby umożliwić klientom łatwe i wygodne zakupy książek onl
 Ta strona internetowa działa na bazie aplikacji webowej napisanej w języku php + JS. Strona korzysta z bazy danych do przechowywania informacji o książkach, klientach i zamówieniach.
 
 ## Wymagania
--PHP
-
--HTML5
-
--JavaScript
-
--CSS
 
 -SQL (np. MySQL, PostgreSQL)
 
