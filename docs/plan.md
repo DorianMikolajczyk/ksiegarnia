@@ -9,10 +9,10 @@ To do, every week sync:
 Data   |  ETA                 | Notatka            |
 -------|----------------------|--------------------|
 tydz 1 | march v1<br/>June v2 |  README + opis projektu      |
-tydz 2 | march v1             |  Baza danych       |
-tydz 3 | march v1             |  Plik php łączący z bazą danych   |
-tydz 4 | march v1             |  Strona logowania                  |
-tydz 5 | march v1             |  Strona rejestracji                  |
-tydz 6 | march v1             |  Strona główna                  |
-tydz 7 | march v1             |  Koszyk                  |
-tydz 8 | march v1             |  Strona finalizacji zamówienia                  |
+tydz 2 | 18 mar zec           |  Baza danych       |
+tydz 3 | 23 marzec            |  Plik php łączący z bazą danych   |
+tydz 4 | 29 marzec            |  Strona logowania                  |
+tydz 5 | 4 kwiecień           |  Strona rejestracji                  |
+tydz 6 | 10 kwiecień          |  Strona główna                  |
+tydz 7 | 14 kwiecień          |  Koszyk                  |
+tydz 8 | 22 kwiecień          |  Strona finalizacji zamówienia                  |
