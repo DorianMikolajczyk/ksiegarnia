@@ -15,3 +15,5 @@ Aby korzystać z tej strony, wystarczy wejść na stronę internetową i przegl�
 Jak działa ta strona?
  
 Ta strona internetowa działa na bazie aplikacji webowej napisanej w języku php + JS. Strona korzysta z bazy danych do przechowywania informacji o książkach, klientach i zamówieniach. Strona jest hostowana na serwerze ubuntu.
+
+https://user-images.githubusercontent.com/91832822/233770222-54d83fa5-8a92-4e5f-9689-0c81def28bb2.mp4
